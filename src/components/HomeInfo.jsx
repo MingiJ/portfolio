@@ -19,14 +19,14 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Worked with many companies"
+      text="Code wrangler turning caffeine into groundbreaking tech at AZ!"
       link="/about"
       btnText="Learn more"
     />
   ),
   3: (
     <InfoBox
-      text="projects asdfg asdf asdf"
+      text="Crafting digital magic: From lines of code to awe-inspiring projects."
       link="/projects"
       btnText="visit my portfolio"
     />
