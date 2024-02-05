@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
+import logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
   return (
     <header className="header">
-      <NavLink
-        to={"/"}
-        className={
-          "w-10 h-10 bg-white shadow-md flex items-center justify-center"
-        }
-      >
-        <p className="blue-gradient_text">JK</p>
+      <NavLink to={"/"}>
+        <img
+          src={logo}
+          alt="Website Logo"
+          className="w-40 h-20 object-contain"
+        />
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
