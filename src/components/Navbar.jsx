@@ -8,7 +8,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="Website Logo"
-          className="w-40 h-20 object-contain"
+          className="w-10 h-10 md:w-40 md:h-20 object-contain"
         />
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
