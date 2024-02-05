@@ -16,8 +16,8 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Kenya, interested in Machine Learning and
-          AI
+          Fullstack Engineer | Machine Learning Enthusiast | Co-founder of
+          Afordia Zero
         </p>
       </div>
       <div className="py-10 flex flex-col ">
@@ -92,7 +92,7 @@ const About = () => {
         </div>
       </div>
       <hr className="border-slate-200" />
-      <CTA/>
+      <CTA />
     </section>
   );
 };
